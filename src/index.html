@@ -1,43 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <link
-    rel="stylesheet"
-    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-  />
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
     <link
-    href="https://fonts.googleapis.com/css?family=Poppins:400,400&display=swap"
-    rel="stylesheet"
-  />
+      href="https://fonts.googleapis.com/css?family=Poppins:400,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Notion</title>
-</head>
-<body>
-    <header>
-        <h1>My notes</h1>
-    </header>
-   <section class="main">
-    <div class="content"></div>
-    <div>
-        <input type="text" class="input" placeholder="Type / for blocks">
-    </div>
-    <div class="menu hide">
-        <h1 class="header">Add blocks</h1>
-        <p class="option">type 1 or 2 to select</p>
-        <div class="options">
-            <p id="1"><i class="uil uil-text-fields"></i>Heading 1</p>
-            <p id="2"><i class="uil uil-text-fields"></i>Heading 2</p>
-            <p id="3"><i class="uil uil-text-fields"></i>Heading 3</p>
-            <p id="4"><i class="uil uil-text-fields"></i>Heading 4</p> 
-            <p id="5"><i class="uil uil-text-fields"></i>Heading 5</p>
-            <p id="6"><i class="uil uil-text-fields"></i>Heading 6</p>
-            <p id="p"><i class="6uil uil-text-fields"></i>Paragraph</p>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="left">
+            <span class="span-img picon"
+              ><img src="./images/ptag.svg" alt="ptag" class="ptag"
+            /></span>
+            <span class="span-img clock"
+              ><i class="uil uil-clock"></i>0min</span
+            >
+            <span class="span-img profile"
+              ><i class="uil uil-user-circle"></i
+            ></span>
+            <span class="arrow"><i class="uil uil-arrow-down-left"></i>0</span>
+          </div>
+          <div class="right">
+            <i class="uil uil-check-circle"></i>
+            <i class="uil uil-cloud"></i>
+            <i class="uil uil-ellipsis-v"></i>
+          </div>
+        </nav>
+      </header>
+      <section class="main">
+        <div class="heading">
+          <h1>Front-end developer test project</h1>
+          <p class="decription">
+            My goal is to make a page that looks like Notion. For example, It
+            has ability to create H1 text simply by typing / then 1, then typing
+            text, and hitting enter.
+          </p>
         </div>
+        <div class="content"></div>
+        <div class="inputSection">
+          <input type="text" class="input" placeholder="Type / for blocks" />
+        </div>
+        <div class="menu hide">
+          <h1 class="header">Basic blocks</h1>
+          <p class="option">Select Block</p>
+          <div class="options">
+            <div id="1" class="option">
+              <img src="./images/text.svg" alt="" />
+              <div>
+                <p>Heading 1</p>
+                <p>shortcut: type /+1</p>
+              </div>
+            </div>
+            <div id="2" class="option">
+              <img src="./images/text.svg" alt="" />
+              <div>
+                <p>Heading 2</p>
+                <p>shortcut: type /+2</p>
+              </div>
+            </div>
+            <div id="3" class="option">
+              <img src="./images/text.svg" alt="" />
+              <div>
+                <p>Heading 3</p>
+                <p>shortcut: type /+3</p>
+              </div>
+            </div>
+            <div id="4" class="option">
+              <img src="./images/text.svg" alt="" />
+              <div>
+                <p>Heading 4</p>
+                <p>shortcut: type /+4</p>
+              </div>
+            </div>
+            <div id="5" class="option">
+              <img src="./images/text.svg" alt="" />
+              <div>
+                <p>Heading 5</p>
+                <p>shortcut: type /+5</p>
+              </div>
+            </div>
+            <div id="6" class="option">
+              <img src="./images/text.svg" alt="" />
+              <div>
+                <p>Heading 6</p>
+                <p>shortcut: type /+6</p>
+              </div>
+            </div>
+            <div id="p" class="option">
+              <img src="./images/text.svg" alt="" />
+              <div>
+                <p>Paragraph</p>
+                <p>shortcut: type /+p</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script type="module" src="./index.js"></script>
     </div>
-   </section>
-   <script type="module" src="./index.js"></script>
-</body>
+  </body>
 </html>

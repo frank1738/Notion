@@ -3,7 +3,7 @@ const contentContainer = document.querySelector('.content');
 const menu = document.querySelector('.menu');
 const selectedHeader = document.querySelector('.selected-header');
 const menuOptions = document.querySelector('.options');
-const selectOptions = menuOptions.querySelectorAll('p');
+const selectOptions = menuOptions.querySelectorAll('div');
 
 let headerType;
 
@@ -14,7 +14,7 @@ selectOptions.forEach((p) => {
       inputData.placeholder = 'pargraph';
     } else {
       headerType = `h${p.id}`;
-      inputData.placeholder = `Heading ${headerType}`;
+      inputData.placeholder = `Enter Heading ${headerType}`;
     }
     inputData.value = '';
     menu.classList.add('hide');
@@ -43,7 +43,7 @@ inputData.addEventListener('keyup', (e) => {
     if (match) {
       headerType = match[1] ? `h${match[1]}` : 'p';
       inputData.value = '';
-      inputData.placeholder = `Heading ${headerType}`;
+      inputData.placeholder = `Enter Heading ${headerType}`;
       menu.classList.add('hide');
     }
   }
