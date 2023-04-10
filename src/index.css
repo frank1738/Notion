@@ -37,21 +37,13 @@ body {
   margin-top: 2rem;
 }
 
-.menu > div > p {
-  font-weight: bold;
-  font-size: 0.8rem;
-  margin-top: 0.3rem;
-  display: flex;
-  gap: 1rem;
-  padding: 0.5rem;
-  align-items: center;
-}
-
 .header {
   font-size: 0.9rem;
 }
 
 .option {
+  display: flex;
+  padding: 0.5rem 0;
   font-size: 0.7rem;
   color: grey;
 }
@@ -165,7 +157,7 @@ nav {
 
 .heading > h1 {
   font-size: 1.2rem;
-  color: #000000;
+  color: #000;
   border-bottom: 1px solid lightgray;
   padding-bottom: 0.3rem;
 }
@@ -179,9 +171,6 @@ nav {
 .content > h1 {
   font-size: 2rem;
 }
-.content > h2 {
-  font-size: 1.7rem;
-}
 
 .content > h1,
 h2,
@@ -193,9 +182,18 @@ p {
   outline: none;
 }
 
-.option {
+.content > h2 {
+  font-size: 1.7rem;
+}
+
+.menu > div > p {
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
   display: flex;
-  padding: 0.5rem 0;
+  gap: 1rem;
+  padding: 0.5rem;
+  align-items: center;
 }
 
 .option > img {
@@ -204,11 +202,16 @@ p {
 }
 
 .option > div > :nth-child(1) {
-  color: #000000;
+  color: #000;
   font-weight: bold;
 }
 
+.dark-mode {
+  background-color: #000;
+}
+
 /* Media Screen */
+
 @media screen and (max-width: 768px) {
   .container {
     width: 95%;

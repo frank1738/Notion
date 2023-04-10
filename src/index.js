@@ -1,11 +1,34 @@
 const inputData = document.querySelector('.input');
 const contentContainer = document.querySelector('.content');
 const menu = document.querySelector('.menu');
-const selectedHeader = document.querySelector('.selected-header');
 const menuOptions = document.querySelector('.options');
-const selectOptions = menuOptions.querySelectorAll('div');
 
 let headerType;
+
+const options = [
+  { id: '1', heading: 'Heading 1', shortcut: '/+1' },
+  { id: '2', heading: 'Heading 2', shortcut: '/+2' },
+  { id: '3', heading: 'Heading 3', shortcut: '/+3' },
+  { id: '4', heading: 'Heading 4', shortcut: '/+4' },
+  { id: '5', heading: 'Heading 5', shortcut: '/+5' },
+  { id: '6', heading: 'Heading 6', shortcut: '/+6' },
+  { id: 'p', heading: 'Paragraph', shortcut: '/+p' },
+];
+options.forEach((option) => {
+  const optionElement = document.createElement('div');
+  optionElement.classList.add('option');
+  optionElement.setAttribute('id', option.id);
+  optionElement.innerHTML = `
+    <img src="./images/text.svg" alt="text" />
+    <div>
+      <p>${option.heading}</p>
+      <p>shortcut: type ${option.shortcut}</p>
+    </div>
+  `;
+  menuOptions.appendChild(optionElement);
+});
+
+const selectOptions = menuOptions.querySelectorAll('div');
 
 selectOptions.forEach((p) => {
   p.addEventListener('click', () => {

@@ -1,4 +1,4 @@
-import { createHeader } from './__mocks__/index.js';
+import createHeader from './__mocks__/index.js';
 
 jest.mock('./index.js');
 
