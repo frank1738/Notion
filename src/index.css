@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  padding: 3rem 5rem;
+}
+
+.menu {
+  border: 1px solid lightgrey;
+  width: 20%;
+  margin-top: 0.5rem;
+  padding: 0.3rem 0 10rem 0.3rem;
+  box-shadow: 0 0 15px lightgrey;
+}
+
+.menu > div > p {
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.header {
+  font-size: 0.9rem;
+}
+
+.option {
+  font-size: 0.7rem;
+  color: grey;
+}
+
+.uil-text-fields {
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.input {
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.main {
+  height: 70vh;
+  overflow: auto;
+  box-shadow: 0 5px 0 lightgray;
+}
+
+.font {
+  font-size: 1.5rem;
+}
+
+p {
+  cursor: pointer;
+}
+
+p:hover {
+  background-color: lightgray;
+}
