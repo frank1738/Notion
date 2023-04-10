@@ -50,7 +50,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Notion-like App <a name="about-project"></a>
 
-> This is a notion-like an app that lets you write anywhere and convert your content into H1
+> It's a test/challenge project, I built a simple editor like notion which has the ability to Create P, H1, H2, ... text simply by typing / then 1, then typing the text, and hitting enter. You can also select the p, h1, h2,..., h6 option from the list of options that appears when you type
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,7 +72,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **Normal Text Editing**
-- **Coverting normal text to H1 text**
+- **Coverting normal text to H1,H2,H3,H4,H5 and H6 text**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://darling-sunburst-f866a8.netlify.app/)
+- [Live Demo Link](https://notion-cb015.web.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +110,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/frank1738/Notion-like-editor.git
+  git https://github.com/frank1738/Notion.git
 ```
 
 ### Usage

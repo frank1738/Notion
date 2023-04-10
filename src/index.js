@@ -2,8 +2,17 @@ const inputData = document.querySelector('.input');
 const contentContainer = document.querySelector('.content');
 const menu = document.querySelector('.menu');
 const menuOptions = document.querySelector('.options');
+const toggleBtn = document.querySelector('.uil-moon');
+const body = document.querySelector('body');
 
 let headerType;
+
+toggleBtn.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+  inputData.classList.toggle('dark-mode');
+  toggleBtn.classList.toggle('uil-sun');
+  menu.classList.toggle('dark-mode');
+});
 
 const options = [
   { id: '1', heading: 'Heading 1', shortcut: '/+1' },

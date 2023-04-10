@@ -22,6 +22,7 @@
     "testEnvironment": "jsdom"
   },
   "dependencies": {
+    "firebase": "^9.19.1",
     "jest-environment-jsdom": "^28.0.2",
     "jsdom": "^19.0.0"
   }

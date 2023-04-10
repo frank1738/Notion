@@ -208,6 +208,7 @@ p {
 
 .dark-mode {
   background-color: #000;
+  color: lightgray;
 }
 
 /* Media Screen */
@@ -219,5 +220,9 @@ p {
 
   .menu {
     width: 95%;
+  }
+
+  .uil-moon {
+    display: none;
   }
 }
