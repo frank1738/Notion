@@ -98,12 +98,6 @@ In order to run this project you need:
 - Editor (VS code)
 - Install Jest testing Library by running the command below
 
-### Installation
-
-```sh
-  npm install
-```
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -111,6 +105,12 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git https://github.com/frank1738/Notion.git
+```
+
+### Installation (Install depedencies)
+
+```sh
+  npm install
 ```
 
 ### Usage
