@@ -80,7 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://notion-cb015.web.app)
+- [Live Demo Link](https://notion-cb015.firebaseapp.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
