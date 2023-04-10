@@ -50,7 +50,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Notion-like App <a name="about-project"></a>
 
-> It's a test/challenge project, I built a simple editor like notion which has the ability to Create P, H1, H2, ... text simply by typing / then 1, then typing the text, and hitting enter. You can also select the p, h1, h2,..., h6 option from the list of options that appears when you type
+> This is a test/challenge project. I built a simple editor like notion which has the ability to Create P, H1, H2, ... text simply by typing / then 1, then typing the text, and hitting enter. You can also select the p, h1, h2,..., h6 option from the list of options that appears when you type
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -160,3 +160,7 @@ Feel free to check the [issues page](../../issues/).
 > I would like to thank [Helpjuice](http://www.helpjuice.com/?utm_source=linkedin&utm_medium=social) for this task that has enabled me to learn something new
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
